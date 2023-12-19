@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #000;
+    background-color: #ffffff;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+h1{
+    padding-top: 25px;
+    text-align: center;
+}
+
+main {
+    padding: 15px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
