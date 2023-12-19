@@ -1,38 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Cours sur Git et GitHub</title>
-    <style>
-        /* Ajouter ici des styles CSS pour personnaliser l'apparence */
-        body {
-            font-family: Arial, sans-serif;
-        }
-        header, footer {
-            background-color: #f1f1f1;
-            padding: 10px;
-            text-align: center;
-        }
-        main {
-            padding: 15px;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Titre de Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Cours sur Git et GitHub</h1>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">MonProjetGit</h1>
+            <nav class="navbar">
+                <ul class="nav">
+                    <li><a href="#git">Git</a></li>
+                    <li><a href="#github">GitHub</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main class="container">
-        <a href="https://github.com/">Site officiel du GitHub</a>
-        <p>Ceci est un paragraphe de texte pour expliquer le contenu de la section.</p>
-        <a href="https://git-scm.com/">Site officiel du Git</a>
-        <p>Ceci est un paragraphe de texte pour expliquer le contenu de la section.</p>
+
+    <main class="container main-content">
+        <section id="git" class="info-section">
+            <h2>Travail en collectif avec Git</h2>
+            <p>
+                Git est un système de contrôle de version distribué gratuit et open source, conçu pour gérer tout, des petits aux très grands projets, avec rapidité et efficacité. <a href="https://git-scm.com/">En savoir plus sur Git.</a>
+            </p>
+        </section>
+
+        <section id="github" class="info-section">
+            <h2>Collaboration et partage avec GitHub</h2>
+            <p>
+                GitHub, d'autre part, est un service d'hébergement basé sur le web pour la gestion de projets de développement qui utilisent Git. <a href="https://github.com/">Découvrez GitHub.</a>
+            </p>
+        </section>
+
+        <section id="contact" class="info-section">
+            <h2>Contactez-nous</h2>
+            <p>Pour toute question ou collaboration, <a href="mailto:contact@example.com">envoyez-nous un email</a>.</p>
+        </section>
     </main>
-    <footer>
-        <p>Pied de page © 2023</p>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2023 MonProjetGit. Tous droits réservés.</p>
+        </div>
     </footer>
 </body>
 </html>
+
+
